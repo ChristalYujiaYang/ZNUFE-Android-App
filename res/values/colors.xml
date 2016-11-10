@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_textcolor">#f8fefe</color>
+    <color name="buttonyouke_textcolor">#1b0950</color>
+    <color name="text_gray">#ff777777</color>
+    <color name="text_white">#f8f9f9</color> 
+    <color name="text_black">#ff333333</color> 
+    <drawable name="button_gray">#f3fcfc </drawable>
+    <drawable name="button_black">#454545</drawable>
+    <color name="text_green">#012f29</color>
+    <color name="text_title">#021c17</color>
+    <color name="black">#000000</color>
+    <color name="white">#f7fdfc</color>
+</resources>

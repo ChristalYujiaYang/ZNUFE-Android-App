@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:paddingBottom="8sp"
+    android:paddingLeft="5sp"
+    android:paddingTop="6sp" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:text="8:00-9:35"
+        android:textColor="@color/text_green"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/classname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:text="这节课的名字可能会很长"
+        android:textColor="@color/text_green"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp" >
+
+        <TextView
+            android:id="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="24sp"
+            android:text="叫兽叫兽"
+            android:textColor="@color/text_green"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/classroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="文氏楼 111"
+            android:textColor="@color/text_green"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/beizhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxEms="15"
+        android:text="既然不点名就不去了吧"
+        android:textColor="@color/text_gray" 
+        android:singleLine="true"/>
+
+</LinearLayout>

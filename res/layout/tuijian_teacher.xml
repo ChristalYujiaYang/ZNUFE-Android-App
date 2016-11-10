@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/teacher_xuyuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plan_content_title1"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/hot_t"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="学院一"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xueyuan1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bbs_baike_bt"
+        android:gravity="center|fill_vertical" >
+
+        <LinearLayout
+            android:id="@+id/t01"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.09"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" 
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/teacher01" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="名字"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/t02"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.09"
+            android:orientation="vertical" 
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/teacher02" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="名字"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/t03"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.09"
+            android:orientation="vertical"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/teacher03" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="名字"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tab" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignTop="@+id/button_yesterday"
+            android:layout_toLeftOf="@+id/button_tomorrow"
+            android:text="明天"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_yesterday"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:background="@drawable/classroom_day_before" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_yesterday"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button_yesterday"
+            android:text="昨天"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_tomorrow"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/classroom_day_after" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/keci2" >
+
+        <ImageView
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/transparent" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_class2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:button="@drawable/top"
+            android:checked="false"
+            android:textOn=" " 
+            android:textOff=" "  />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_class1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="22dp"
+            android:background="@null"
+            android:button="@drawable/top"
+            android:checked="false"
+            android:textOn=" " 
+            android:textOff=" " />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_class3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/toggleButton_class1"
+            android:layout_marginTop="44dp"
+            android:background="@null"
+            android:button="@drawable/top"
+            android:checked="false"
+            android:textOn=" " 
+            android:textOff=" "  />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_class4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/toggleButton_class2"
+            android:background="@null"
+            android:button="@drawable/top"
+            android:checked="false"
+            android:textOn=" " 
+            android:textOff=" "  />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_class5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBaseline="@+id/toggleButton_class3"
+            android:layout_alignBottom="@+id/toggleButton_class3"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:button="@drawable/top"
+            android:checked="false"
+            android:textOn=" " 
+            android:textOff=" " />
+
+        <Button
+            android:id="@+id/building"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:paddingBottom="15sp"
+            android:paddingLeft="2sp"
+            android:text="文泰楼"
+            android:textColor="@color/text_green"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_nowday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/toggleButton_class3"
+            android:layout_alignBottom="@+id/toggleButton_class3"
+            android:layout_centerHorizontal="true"
+            android:text="星期二"
+            android:textColor="@color/text_green"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="选择日期及第几节课后"
+        android:textColor="@color/text_green"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="点击教学楼开始" 
+        android:textColor="@color/text_green"
+        android:textSize="16sp" />
+
+</RelativeLayout>

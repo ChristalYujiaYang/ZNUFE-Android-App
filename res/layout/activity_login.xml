@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_tab" >
+
+        <EditText
+            android:id="@+id/editText_login_psw"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/editText_login_xuehao"
+            android:layout_alignRight="@+id/editText_login_xuehao"
+            android:layout_below="@+id/editText_login_xuehao"
+            android:background="@drawable/bg_edittext_xuehaomima"
+            android:maxLength="10"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingLeft="2dp" 
+            android:singleLine="true"
+            android:drawableLeft="@drawable/pwd_icon"/>
+
+        <Button
+            android:id="@+id/button_login_youke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_login_quxiao"
+            android:layout_alignBottom="@+id/button_login_quxiao"
+            android:layout_alignRight="@+id/editText_login_xuehao"
+            android:background="@null"
+            android:text="游客模式"
+            android:textColor="#849da0"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageViewicon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/button_login_quxiao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icon_login_znufe" />
+
+        <EditText
+            android:id="@+id/editText_login_xuehao"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageViewicon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_edittext_top"
+            android:drawableLeft="@drawable/user_icon1"
+            android:maxLength="12"
+            android:hint="学号"
+            android:inputType="number"
+            android:paddingLeft="2dp" 
+            android:focusable="true"
+            android:singleLine="true">
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button_login_quxiao"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_login_quxiao"
+            android:text="取消" />
+
+        <CheckBox
+            android:id="@+id/checkbox_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText_login_psw"
+            android:layout_below="@+id/editText_login_psw"
+            android:layout_marginTop="7dp"
+            android:text="记住密码"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_login_Login"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/checkbox_login"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_long"
+            android:text="登    录"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

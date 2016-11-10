@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/building_list"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/building_list"
+        android:dividerHeight="1px"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wentai"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/building_list_item"
+            android:gravity="center"
+            android:paddingTop="12sp"
+            android:text="文泰楼"
+            android:textColor="@drawable/building_pop_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wenbo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/building_list_item"
+            android:gravity="center"
+            android:paddingTop="6sp"
+            android:text="文波楼"
+            android:textColor="@drawable/building_pop_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wenlan"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:paddingTop="6sp"
+            android:text="文澜楼"
+            android:textColor="@drawable/building_pop_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

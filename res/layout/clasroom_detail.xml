@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tab"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/classroom_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.00"
+        android:background="#063932" >
+
+        <Button
+            android:id="@+id/c_back"
+            android:layout_width="44dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/back_bt" />
+
+        <TextView
+            android:id="@+id/building_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:gravity="center|bottom"
+            android:paddingBottom="6sp"
+            android:text="文泰楼"
+            android:textColor="@color/text_white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.00" 
+        android:divider="#8E8E8E">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center|right"
+            android:paddingRight="20sp"
+            android:text="一          二         三        四        五 "
+            android:textColor="@color/text_green"
+            android:textSize="16sp" 
+            android:background="@drawable/plan_content_title2"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/classroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|fill|center_vertical"
+        android:layout_weight="1.23"
+        android:background="#fafafa"
+        android:divider="#8E8E8E"
+        android:dividerHeight="1px"
+        android:scrollbars="@null" 
+        android:listSelector="@null"
+        android:minHeight="45dp">
+
+    </ListView>
+
+</LinearLayout>

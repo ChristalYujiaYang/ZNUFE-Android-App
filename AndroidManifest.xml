@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.znufe.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="11"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+    <application
+        android:allowClearUserData="false"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_znufe"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.znufe.ui.Main_Enter"
+            android:label="znufe">"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.znufe.ui.Information" 
+            android:label="注册" 
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.znufe.ui.Login"
+              android:label="登录"
+              android:windowSoftInputMode="adjustPan"
+              android:noHistory="true"/>
+                <activity android:name="com.znufe.ui.NumChecked" 
+            android:label="注册" 
+            android:windowSoftInputMode="adjustPan"/>
+                <activity android:name="com.znufe.ui.Registered" android:label="注册" android:noHistory="true"/>
+        <activity
+            android:name="com.znufe.ui.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Classroom"
+            android:label="@string/app_name1">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.BBS"
+            android:label="@string/app_name2">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.More"
+            android:label="@string/app_name3">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Study"
+            android:label="@string/app_name4">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.AboutUs"
+            android:label="@string/aboutus">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Introduction"
+            android:label="@string/introduction">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Mainpage"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Study_richeng"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Study_zixi"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Study_fuxi"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Edit_pop"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Zixi_plan_style_xb"
+            android:label="@string/main">
+        </activity>
+<activity 
+            android:name="com.znufe.ui.Plan_example"
+            android:label="@string/main">
+            
+        </activity>
+ <activity 
+            android:name="com.znufe.ui.Zixi_plan_style_xz"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Zixi_plan_pop_xz"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Zixi_plan_pop_xb"
+            android:label="@string/main">
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.Hot_teacher"
+            android:label="@string/main">
+        </activity>
+        
+        <activity
+            android:name="com.znufe.ui.MyPage"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:label="@string/app_name" >
+                    
+        </activity>
+        <activity 
+            android:name="com.znufe.ui.EditInfo" >
+        </activity>
+ 
+        <activity 
+            android:name="com.znufe.ui.SearchResult" >
+        </activity>
+        
+		<activity 
+            android:name="com.znufe.ui.IConcern" >
+        </activity>
+        
+		<activity 
+            android:name="com.znufe.ui.ConcernMe" >
+        </activity>
+        
+		<activity 
+            android:name="com.znufe.ui.HisPage" >
+        </activity>
+		
+		<activity 
+            android:name="com.znufe.ui.MyCourse" >
+        </activity>
+        
+		<activity 
+            android:name="com.znufe.ui.Infomation" >
+        </activity>
+		
+    </application>
+
+</manifest>

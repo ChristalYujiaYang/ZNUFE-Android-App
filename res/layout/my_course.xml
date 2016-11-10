@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mypage_btn3"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+        
+        <Button 
+            android:layout_width="40dp" 
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape2"
+            android:text="@string/search_result_btn1"
+            android:textColor="#BCC8DE" />
+        
+	</RelativeLayout>
+    
+    <ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+	        <Button android:id="@+id/my_course_btn1"
+	            android:text="会计学"
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+	    
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+				
+	        <Button 
+				android:layout_height="60dp"
+				android:layout_width="match_parent"  
+				android:background="@drawable/shape3" />  
+	        
+			
+			</LinearLayout>
+			
+	</ScrollView>
+     
+</LinearLayout>

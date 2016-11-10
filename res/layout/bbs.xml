@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/actionbar"
+        android:gravity="center|fill"
+        android:padding="3dp" 
+        android:paddingLeft="50dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/bbs_choose_bt_on"
+            android:gravity="center"
+            android:text="资料百科"
+            android:textColor="@drawable/bbs_title_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="22dp"
+            
+            android:background="@drawable/bbs_choose_bt"
+            android:gravity="center"
+            android:text="我的关注"
+            android:textColor="@drawable/bbs_title_color"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

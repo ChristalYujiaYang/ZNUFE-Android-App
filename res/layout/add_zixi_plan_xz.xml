@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_xz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_xz"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_add_zixi_plan_pop"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_pop_zixiplan"
+            android:gravity="center|left"
+            android:paddingLeft="18sp"
+            android:paddingTop="10sp"
+            android:text="你想添加："
+            android:textColor="#000001"
+            android:textSize="26sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:paddingRight="8sp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" 
+                android:checked="true"
+                android:text="                   学渣之王"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="                   超级学渣"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"                
+                android:text="                   普通学渣"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_pop_zixiplan_below"
+            android:gravity="center|fill_vertical"
+            android:paddingLeft="18sp"
+            android:paddingRight="18sp"
+            android:paddingTop="5sp" >
+
+            <Button
+                android:id="@+id/button_yes"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pop_zixiplan_bt"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:text="取消"
+                android:textColor="@drawable/pop_bt_color"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_no"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pop_zixiplan_bt"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:text="确定"
+                android:textColor="@drawable/pop_bt_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

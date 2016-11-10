@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="XueYuan">
+	<item>---选择学院---</item>     
+	<item>工程学院</item> 
+        <item>统计学院</item> 
+        <item>公共管理学院</item> 
+        <item>会计学院</item> 
+        <item>新闻学院</item>
+	<item>外语学院</item> 
+	<item>刑事司法学院</item> 
+	<item>法学院</item> 
+	<item>金融学院</item> 
+	<item>经济学院</item> 
+	<item>财税学院</item> 
+ 	<item>哲学院</item>
+	<item>工商学院</item>  
+    </string-array> 
+    
+    <string-array name="qinshi">
+        <item>---选择寝室---</item> 
+        <item>中区</item>
+        <item>环湖</item>
+        <item>滨湖</item>
+        <item>临湖</item>
+    </string-array>
+        
+   <string-array name="GongChengzhuanye"> 
+       <item>---选择专业---</item> 
+        <item>信息系统与信息管理</item> 
+        <item>环境工程</item> 
+        <item>安全工程</item> 
+        <item>计算机科学与技术</item> 
+        <item>电子商务</item> 
+    </string-array> 
+    
+    <string-array name="TongJizhuanye"> 
+        <item>---选择专业---</item>    
+    	<item>统计学</item> 
+        <item>信息与计算科学</item> 
+    </string-array> 
+    
+     <string-array name="GongGongzhuanye"> 
+         <item>---选择专业---</item> 
+        <item>劳动与社会保障</item> 
+        <item>行政管理</item> 
+        <item>公共事业管理</item> 
+        <item>城市管理</item> 
+        <item>劳动关系</item>   
+    </string-array>  
+    
+     <string-array name="KuaiJizhuanye"> 
+         <item>---选择专业---</item> 
+        <item>会计学</item> 
+        <item>会计学（注册会计师）</item> 
+        <item>财务管理</item> 
+        <item>会计学 (ACCA 实验班 ) </item>
+        <item>会计学 ( 留学生班 )</item>
+    </string-array>  
+    
+      <string-array name="GongShangzhuanye"> 
+          <item>---选择专业---</item> 
+          <item>工商管理</item>
+          <item>市场营销</item>
+          <item>人力资源管理</item>
+          <item>国际经济与贸易</item>
+          <item>贸易经济</item>
+          <item>物流管理</item>
+          <item>电子商务</item>
+          <item>旅游管理</item>
+          <item>管理科学</item>
+          <item>农林经济管理</item>
+          <item>商学学士（国际贸易）</item>
+          </string-array>
+          
+      <string-array name="XinWenzhuanye">
+          <item>---选择专业---</item> 
+        <item>新闻学</item>
+        <item>广播电视新闻学</item>
+        <item>汉语言文学</item>
+        <item>艺术设计</item>
+    </string-array> 
+
+      <string-array name="WaiYuzhuanye">
+          <item>---选择专业---</item> 
+        <item>英语</item>
+        <item>商务英语</item>
+        <item>日语（商务日语方向）</item>
+        <item>法语（商务法语）</item>
+    </string-array> 
+
+   	  <string-array name="XingSizhuanye">
+   	      <item>---选择专业---</item> 
+        <item>法学专业（刑事司法方向）</item>
+        <item>侦查学专业</item>
+        <item>治安学专业</item>
+        <item>边防管理专业</item>
+        <item>侦查学( 职务犯罪侦查方向)</item> 
+    </string-array> 
+
+    <string-array name="FaXuezhuanye">
+        <item>---选择专业---</item> 
+        <item>法学（涉外经贸法方向）</item>
+        <item>法学（民商法方向）</item>
+        <item>法学（政府法制方向）</item>
+        <item>法学 </item>    
+    </string-array>
+
+    <string-array name="JingRongzhuanye">
+        <item>---选择专业---</item> 
+        <item>金融学</item>
+        <item>投资学</item>
+        <item>保险</item>
+        <item>工程管理</item>
+        <item>金融工程</item>
+        <item>房地产经营管理</item>
+        <item>金融学（ CFA ）</item>       
+    </string-array>
+
+    <string-array name="CaiShuizhuanye"> 
+        <item>---选择专业---</item>    
+    	<item>财政学</item> 
+        <item>税务（注册税务师方向）</item>
+        <item>税务</item> 
+    </string-array> 
+    
+    <string-array name="JingJizhuanye"> 
+        <item>---选择专业---</item>    
+    	<item>经济学</item> 
+        <item>国际商务</item> 
+    </string-array>
+    
+    <string-array name="ZheXuezhuanye"> 
+        <item>---选择专业---</item>    
+    	<item>国际政治</item> 
+        <item>哲学</item> 
+    </string-array> 
+    
+ <string-array name="Unknow"> 
+        <item>---选择专业---</item>    
+    </string-array> 
+    
+</resources>

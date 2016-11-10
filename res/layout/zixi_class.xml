@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zixi_class"
+    android:layout_width="62dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/plan_content_title_small1"
+    android:gravity="center|fill_vertical"
+    android:orientation="vertical" >
+
+
+    <ToggleButton
+        android:id="@+id/ring1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/zixi_ring" 
+        android:button="@null"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/plance1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:text="文泰111"
+        android:textColor="@color/text_green"
+        android:textSize="16sp" />
+
+</LinearLayout>

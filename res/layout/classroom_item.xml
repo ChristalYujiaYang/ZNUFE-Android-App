@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/classroom_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ke1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20sp"
+            android:text="111"
+            android:textColor="@color/text_green"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ke2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/ke1"
+            android:src="@drawable/classroom_ke" />
+
+        <ImageView
+            android:id="@+id/ke3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/ke2"
+            android:src="@drawable/classroom_kong" />
+
+        <ImageView
+            android:id="@+id/ke5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/classroom_kong" />
+
+        <ImageView
+            android:id="@+id/ke1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/classroom_num"
+            android:src="@drawable/classroom_kong" />
+
+        <ImageView
+            android:id="@+id/ke4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/ke3"
+            android:src="@drawable/classroom_kong" />
+
+    </RelativeLayout>
+

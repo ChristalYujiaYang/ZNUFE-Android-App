@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pop_rc_edit" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText1"
+            android:layout_alignLeft="@+id/editText1"
+            android:paddingBottom="5sp"
+            android:text="编辑备注"
+            android:textColor="@color/text_green"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/beizhu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignRight="@+id/editText1"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="15dp"
+            android:text="20字"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_pop_edit"
+            android:ems="20"
+            android:gravity="center|top|left"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_quxiao"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/button_queding"
+            android:layout_alignBottom="@+id/button_queding"
+            android:layout_alignRight="@+id/textView2"
+            android:background="@drawable/pop_bt"
+            android:text="取消"
+            android:textColor="@color/text_green"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_queding"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignRight="@+id/beizhu1"
+            android:layout_below="@+id/beizhu1"
+            android:background="@drawable/pop_bt"
+            android:text="确定"
+            android:textColor="@color/text_green"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/baike"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e6e6"
+    android:divider="#646565"
+    android:dividerPadding="1sp"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_search"
+        android:gravity="center"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:focusable="true"
+      android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/search_content"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="0.18"
+            android:background="@null"
+            android:ems="10"
+            android:hint="教员、课程、场所"
+            android:singleLine="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button_search"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bbs_search_bt" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bbs_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_baike_button"
+        android:drawableLeft="@drawable/jiaoyuan_hot_icon"
+        android:drawablePadding="16sp"
+        android:gravity="center|left"
+        android:paddingLeft="8sp"
+        android:paddingRight="10sp"
+        android:drawableRight="@drawable/bbs_next"        
+        android:text="明星教员"
+        android:textColor="@drawable/bbs_title_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bbs_course"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_baike_button"
+        android:drawableLeft="@drawable/kecheng_hot_icon"
+        android:drawablePadding="25sp"
+        android:gravity="center|left"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:drawableRight="@drawable/bbs_next"    
+        android:text="热门课程"
+        android:textColor="@drawable/bbs_title_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bbs_place"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_baike_button"
+        android:drawableLeft="@drawable/map_icon"
+        android:drawablePadding="20sp"
+        android:gravity="center|left"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:drawableRight="@drawable/bbs_next"    
+        android:text="校内一览"
+        android:textColor="@drawable/bbs_title_color"
+        android:textSize="18sp" />
+    
+
+</LinearLayout>

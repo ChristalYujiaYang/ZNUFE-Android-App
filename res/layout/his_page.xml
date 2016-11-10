@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" >
+
+	<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000" >
+        
+        <TextView android:id="@+id/his_page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=" "
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+        
+        <Button android:id="@+id/his_page_btn0"
+            android:layout_width="40dp" 
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape2"
+            android:text="@string/search_result_btn1"
+            android:textColor="#BCC8DE" />
+        
+	</RelativeLayout>
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:background="@drawable/backgroundimg" >
+
+		<TextView android:id="@+id/his_page_tv1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:layout_marginLeft="5dp"
+		    android:text=" " 
+		    android:textSize="18sp"
+		    android:textStyle="bold" />
+
+		<TextView android:id="@+id/his_page_tv2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/his_page_tv1"
+		    android:layout_marginLeft="5dp"
+		    android:textSize="18sp"
+		    android:text="@string/information" />
+		
+		<Button android:id="@+id/his_page_btn5"
+		    android:layout_width="90dp"
+		    android:layout_height="40dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:text="取消关注"
+		    android:textSize="14sp" />
+ 
+	</RelativeLayout>
+	 
+	<EditText android:id="@+id/his_page_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:singleLine="true" />
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"  >
+        
+	    <TableLayout android:id="@+id/his_page_table"
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp" 
+	        android:stretchColumns="0,1,2"
+	        android:padding="6dp" >
+	    	 
+			<TableRow android:id="@+id/his_page_tr1"
+				android:layout_height="0dp"
+				android:layout_weight="1" > 
+				
+				<Button android:id="@+id/his_page_btn1"
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp" 
+					android:gravity="bottom|center"
+					android:paddingBottom="10dp"
+					android:text="他关注的人" 
+					android:background="@drawable/shape1" />  
+					
+				<Button android:id="@+id/his_page_btn2"
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp"
+					android:gravity="bottom|center"
+					android:paddingBottom="10dp"
+					android:text="关注他的人" 
+					android:background="@drawable/shape1" />  
+					
+				<Button android:id="@+id/his_page_btn3"
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp"
+					android:gravity="bottom|center"
+					android:paddingBottom="10dp"
+					android:text="他的课程" 
+					android:background="@drawable/shape1" />  
+					
+		    </TableRow> 
+	     
+		    <TableRow android:id="@+id/mypage_tr2"
+		        android:layout_height="0dp"
+		        android:layout_weight="1" > 
+		        
+				<Button android:id="@+id/his_page_btn4"
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp"
+					android:gravity="bottom|center"
+					android:paddingBottom="10dp"
+					android:text="他的评论" 
+					android:background="@drawable/shape1" />  
+					
+				<Button 
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp" 
+					android:visibility="invisible" 
+					android:background="@drawable/shape1" />  
+					
+				<Button 
+					android:layout_height="match_parent"
+					android:layout_width="0dp" 
+					android:layout_weight="1"
+					android:layout_margin="8dp"
+					android:visibility="invisible" 
+					android:background="@drawable/shape1" />  
+				  
+		    </TableRow> 
+	      
+		</TableLayout>
+		
+	</LinearLayout>
+
+</LinearLayout>

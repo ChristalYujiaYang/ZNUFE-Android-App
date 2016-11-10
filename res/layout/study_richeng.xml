@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_study_rc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_date"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_study_rc_time" >
+
+        <TextView
+            android:id="@+id/textView_ymd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="2013年11月26日" />
+
+        <TextView
+            android:id="@+id/textView_zhouci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView_ymd"
+            android:layout_alignBottom="@+id/textView_ymd"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/textView_ymd"
+            android:text="第13周" />
+
+        <TextView
+            android:id="@+id/textView_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView_zhouci"
+            android:layout_alignBottom="@+id/textView_zhouci"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:text="星期二" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rc1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="654dp"
+            android:layout_weight="0.91"
+            android:background="@drawable/bg_rc"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="320dp"
+                android:layout_height="37dp"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/class1"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class"
+                android:paddingTop="5sp" >
+
+                <TextView
+                    android:id="@+id/textView_keci"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_rc_keci"
+                    android:gravity="center"
+                    android:text="第一节" />
+
+                <Button
+                    android:id="@+id/buttonedit_class1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView_keci"
+                    android:layout_marginRight="21dp"
+                    android:background="@drawable/editbutton" />
+
+                <include
+                    android:id="@+id/class1_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/textView_keci"
+                    layout="@layout/kebiao_class" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/class2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class" >
+
+                <TextView
+                    android:id="@+id/textView_keci"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_rc_keci"
+                    android:gravity="center"
+                    android:text="第二节" />
+
+                <Button
+                    android:id="@+id/buttonedit_class2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView_keci"
+                    android:layout_marginRight="21dp"
+                    android:background="@drawable/editbutton" />
+
+                <include
+                    android:id="@+id/class2_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView_keci"
+                    layout="@layout/kebiao_class" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/class3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class" >
+
+                <TextView
+                    android:id="@+id/textView_keci"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_rc_keci"
+                    android:gravity="center"
+                    android:text="第三节" />
+
+                <Button
+                    android:id="@+id/buttonedit_class3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView_keci"
+                    android:layout_marginRight="21dp"
+                    android:background="@drawable/editbutton" />
+
+                <include
+                    android:id="@+id/class3_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView_keci"
+                    layout="@layout/kebiao_class" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/class4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class" >
+
+                <TextView
+                    android:id="@+id/textView_keci"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_rc_keci"
+                    android:gravity="center"
+                    android:text="第四节" />
+
+                <include
+                    android:id="@+id/class4_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView_keci"
+                    layout="@layout/kebiao_class" />
+
+                <Button
+                    android:id="@+id/buttonedit_class4"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView_keci"
+                    android:layout_below="@+id/textView_keci"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/editbutton" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/class5"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class" >
+
+                <TextView
+                    android:id="@+id/textView_keci"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_rc_keci"
+                    android:gravity="center"
+                    android:text="第五节" />
+
+                <Button
+                    android:id="@+id/buttonedit_class5"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView_keci"
+                    android:layout_marginRight="21dp"
+                    android:background="@drawable/editbutton" />
+
+                <include
+                    android:id="@+id/class5_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView_keci"
+                    layout="@layout/kebiao_class" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

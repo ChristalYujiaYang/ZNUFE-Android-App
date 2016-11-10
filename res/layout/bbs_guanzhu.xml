@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9fbfb"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#f9fbfb">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:background="#f9fbfb"
+    		android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/guanzhu_course"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_baike_button"
+        android:drawableLeft="@drawable/guanzhu_course_icon"
+        android:drawablePadding="20sp"
+        android:gravity="center|left"
+        android:paddingLeft="10sp"
+        android:textColor="@drawable/bbs_title_color"
+        android:textSize="18sp" 
+        android:textOff="关注课程"
+        android:textOn="关注课程"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/guanzhu_open"/>
+
+    <ListView
+        android:id="@+id/listView_course"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#8a8a8a"
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true"
+        android:scrollbars="@null" >
+
+    </ListView>
+
+    <ToggleButton
+        android:id="@+id/guanzhu_freinds"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bbs_baike_button"
+        android:drawableLeft="@drawable/guanzhu_haoyou_icon"
+        android:drawablePadding="20sp"
+        android:gravity="center|left"
+        android:paddingLeft="10sp"
+        android:textColor="@drawable/bbs_title_color"
+        android:textSize="18sp" 
+        android:textOff="关注好友"
+        android:textOn="关注好友"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/guanzhu_open"/>
+
+    <ListView
+        android:id="@+id/listView1_freinds"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#8a8a8a"
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true" 
+        android:scrollbars="@null" >
+    </ListView>
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

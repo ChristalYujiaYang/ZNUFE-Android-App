@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+E:\Andriod\enter\znufe\.metadata\.plugins\org.eclipse.jdt.core
+3064260171.index
+4266713660.index
